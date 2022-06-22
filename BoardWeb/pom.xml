@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.springbook</groupId>
-	<artifactId>biz</artifactId>
-	<name>BoardWeb</name>
+	<artifactId>view</artifactId>
+	<name>BoardWebProject</name>
 	<packaging>war</packaging>
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
@@ -187,3 +187,4 @@
         </plugins>
     </build>
 </project>
+	

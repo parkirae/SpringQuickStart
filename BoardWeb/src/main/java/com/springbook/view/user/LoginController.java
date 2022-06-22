@@ -8,7 +8,9 @@ import com.springbook.biz.user.impl.UserDAO;
 import com.springbook.view.controller.Controller;
 
 public class LoginController implements Controller {
-
+	public LoginController() {
+		System.out.println("=========> LoginController");
+	}
 	@Override
 	public String handleRequest(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("로그인 처리");
